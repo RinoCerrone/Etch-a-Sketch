@@ -1,22 +1,38 @@
+header{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+   
+}
 .main-container{
     display: flex;
+    justify-content: center;
     background-color: blue;
-
+    width: 70%;
+    padding:50px;
 }
+
 #left-sidebar{
     background-color: goldenrod;
-    width: 2500px;
+    width: 250px;
+    margin-right: 25px;
 }
+
 .child-divs-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.child-divs {
-    background-color: blueviolet;
-    width: 50px;
-    height: 50px;
+    width: 480px;
     margin: 0px;
-}
+  }
+  
+  .child-divs {
+    width: 30px;
+    height: 30px; 
+    background-color: white;
+    margin: 0px; 
+  }
+
+
+
