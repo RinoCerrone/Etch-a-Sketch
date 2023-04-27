@@ -14,9 +14,18 @@
         <div id="left-sidebar">
             <button id="black-button">Black</button>
             <button id="random-button">Rainbow</button>
-            <button id="shading-button">Shading</button>
             <button id="eraser-button">Eraser</button>
             <button id="clear-button">Clear</button>
+            <div>
+                <input id="sizeSlider" type="range" value="2" min="1" max="4"step="1" list="values">
+                <datalist id="values">
+                    <option value="1" label="8"></option>
+                    <option value="2" label="16"></option>
+                    <option value="3" label="32"></option>
+                    <option value="4" label="64"></option>            
+                </datalist>
+            </div>
+
         </div>
         <div id="main-content">
          

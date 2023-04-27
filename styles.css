@@ -41,8 +41,25 @@ header{
 button{
    font-size: 24px;
    width:150px;
-   
+
 
 }
+datalist {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+  }
+  
+  option {
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  input[type="range"] {
+    width: 250px;
+    margin: 0;
+  }
+
+  
 
 
