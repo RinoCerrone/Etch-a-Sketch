@@ -119,8 +119,16 @@ eraserButton.addEventListener("click", function() {
  });
 });
 
+const buttons = document.querySelectorAll("button");
 
-
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    buttons.forEach((otherButton) => {
+      otherButton.classList.remove("clicked");
+    });
+    button.classList.add("clicked");
+  });
+});
 
 
 
